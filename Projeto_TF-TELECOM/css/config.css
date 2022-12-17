@@ -1,0 +1,395 @@
+body{
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+
+}
+
+
+/*Menu*/
+nav{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #191970;
+}
+
+nav  > a {
+
+         text-decoration: none;
+            color: #000;
+            font-weight: 400;
+             font-size: 32px;
+             font-family: sans-serif;
+}
+
+nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style:  none;
+        padding: 0;
+        width: 100%;
+
+}
+
+nav ul li {
+
+            text-align: center;
+             width: 100%;
+}
+
+nav ul li a {
+                        display: block;
+                        padding: 10px 0;
+                         width: 100%;
+                         text-decoration: none;
+                         text-shadow: #000;
+                         color: #fff;
+
+}
+
+.sobre{
+        color: #fff;
+        text-decoration: none;
+
+    }
+/*Cabeçalho*/
+header {
+                
+             height: 20vh;
+             display: flex;
+             flex-direction: column;
+            align-items: center;
+            background-image: url("../img/topo.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+           text-shadow: #fff;
+            text-align: center;
+            font-size: 20px;
+            padding: 20px;
+}
+
+header h1{
+    color: #ffff;
+}
+#telecom{
+        background-color: #000;
+        border-radius: 5px;
+}
+#telecom:houver{
+        opacity: 1%;
+}
+
+header p{
+    margin-bottom: 2em;
+}
+.b{ 
+        color: #fff;
+       font-size: 25px;
+        background-color: #000;
+        border-radius: 5px;
+}
+
+.b:houve{
+
+        opacity: 1%;
+}
+
+.botao{
+
+        color: #ffff;
+        text-decoration: none;
+        background-color: #0200077b;
+        border-radius:  5px;
+}
+
+.botao:houve{
+        opacity: 10%;
+}
+
+#conteiner{
+        height: 60%;
+        position: relative;
+        background-color: #191970;
+        margin-bottom: 5px;
+        padding: 10px  10px 20px 20px;
+
+}
+
+#sobre {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 2px;
+                padding: 10px 10px 20px 20px;
+                background-color: #191970;
+                color: #fff;
+                text-shadow: #000;
+} 
+
+/*meio*/
+
+#sobre h2  h3  {
+                display: flex;
+                flex-direction: column;
+                color: #fff;
+}
+
+#sobre p {
+            margin-bottom: 2.5em;
+            max-width: 100%;
+            height: 80%;
+}
+
+#serviços  {
+            display: flex;
+            flex-direction: column;
+           align-items: center;
+           padding: 30px;
+
+}
+#serviço div  {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    margin-top: 30px;    
+                    position: absolute;
+                    transform: translate(-50%, -50%);
+}
+
+#principal{
+        width: 100%;
+        font-size: 12px;
+        align-items: center;
+}
+#img1{
+        float: left;
+        width: 22%;
+        padding: 5px;
+        border: solid #191970;
+        border-radius: 5px;
+        height: 450px;
+        margin-right: 1px;
+        align-items: center;
+        text-align: center;
+        margin-left: 50px;
+
+}
+#img1:hover{
+        color: #20207c;
+}
+
+#img2{
+        float: left;
+        width: 22%;
+        padding: 5px;
+        border: solid #191970;
+        border-radius: 5px;
+        height: 450px;
+        margin-right: 1px;
+        align-items: center;
+        text-align: center;
+}
+
+#img2:hover{
+        color: #20207c;
+}
+#img3{
+        float: left;
+        width: 22%;
+        padding: 5px;
+        border: solid #191970;
+        border-radius: 5px;
+        height: 450px;
+        margin-right: 1px;
+        align-items: center;
+        text-align: center;
+        
+}
+
+#img3:hover{
+        color: #20207c;
+}
+
+#img4{
+        float: left;
+        width: 22%;
+        padding: 5px;
+        border: solid #191970;
+        border-radius: 5px;
+        height: 450px;
+        margin-right: 1px;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 5px;
+     
+}
+
+
+#img4:hover{
+        color: #20207c;
+}
+/*Contato*/
+
+#contato {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    padding: 20px;
+                    
+}
+
+#contato h2{
+            color: #000;
+}
+
+p  a {
+              text-decoration: none;
+}
+
+/*Roda pé*/
+
+footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #191970;
+        color: #FFFF;
+}
+
+footer a {
+            text-decoration: none;
+            color: #18083f;
+}
+
+@media screen and (min-width: 768px) {
+    
+        nav {
+                flex-direction: row;
+                justify-content:  space-around;
+
+        }
+
+        nav ul {
+                    flex-direction:  row;
+                    width: 70%;
+        }
+
+        header {
+                    height: 600px;
+                    height: 60vh;
+                    justify-content: center;
+        }
+
+        #sobre {
+            height: 250px;
+            height: 30vh;
+            justify-content: center;
+            min-height: 250px;
+        }
+
+        #servicos {
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            max-width: 1000px;
+            margin: 0 auto;
+ 
+        }
+
+        #serviço h2 {
+                        text-align: center;
+                        width: 100%;
+        }
+        #serviço div {
+            flex-grow: 1;
+            flex-basis: 150px;
+            padding: 0 10px;
+        }
+
+        #foto {
+                flex-direction: row;
+                flex-wrap: wrap;
+        }
+        #fotos h2 {
+                width: 100%;
+                text-align: center;
+
+        }
+
+        #foto img {
+                    width: 33.3333333%;
+        }
+        #contato {
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    max-width: 500px;
+                    margin: 0 auto;
+
+        }
+
+        #contato h2,  #contato p {
+                                width: 100%;
+                                text-decoration: none;
+        }
+
+
+}
+
+
+
+
+#planos{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+}
+
+/*formulario formatação*/
+
+#formulario{
+        height: 40vh;
+        background-color: #191970;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:  10px;
+}
+
+label{
+        color: #fff;
+}
+
+input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #20207c;
+        border-color: #000;
+        border: 5px;
+}
+
+textarea{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #20207c;
+        border-color: #000;
+        border: 5px;
+}
+
+button{
+        background-color: #25257e;
+        padding: 5px;
+        margin: 2px;
+        border-radius: 5px;
+        color:#fff
+}
